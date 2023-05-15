@@ -1,0 +1,160 @@
+/*******************    B   O   D   Y   **********************/
+body {
+    height: 1300px;
+}
+
+.sacra__bg {
+    position: absolute;
+    z-index: -999;
+    width: 1491px;
+    height: 750px;
+}
+
+.header__text {
+    position: absolute;
+    font-size: 50px;
+    color: cyan;
+    transform: translateX(257px);
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*******************    L   O   G   O   **********************/
+
+
+.logo__1 {
+position: fixed;
+border: 5px solid green;
+border-radius: 50%;
+width: 70px;
+z-index: 999;
+}
+
+
+.logo__2 {
+position: fixed;
+transform: translateX(1400px);
+border: 5px solid blue;
+border-radius: 50%;
+width: 70px;
+z-index: 999;
+}
+
+
+.logo__3 {
+position: fixed;
+transform: translateX(1400px);
+margin-top: 640px;
+border: 5px solid green;
+border-radius: 50%;
+width: 70px;
+z-index: 999;
+}
+
+
+.logo__4 {
+position: fixed;
+transform: translateY(640px);
+border: 5px solid blue;
+border-radius: 50%;
+width: 70px;
+z-index: 999;
+}
+
+
+/*******************     L I N K S   *************/
+
+.container__link {
+    position: absolute;
+    border: 5px solid red;
+    width: 1480px;
+    height: 580px;
+    margin-top: 750px;
+}
+
+
+.last__bg {
+    position: absolute;
+    height: 580px;
+    width: 1480px;
+    z-index: -10;
+}
+
+
+/******************   D I S C O R D  *************/
+
+.discord__text {
+    position: absolute;
+    color: red;
+    transform: translatex(750px);
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.discord__click {
+    position: absolute;
+    font-size: 40px;
+    color: cyan;
+    transform: translateX(1080px);
+    margin-top: 420px;
+}
+
+.da {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    transform: translateX(670px);
+    margin-top: 60px;
+}
+
+.discord {
+    position: absolute;
+    width: 250px;
+    height: 160px;
+    border-radius: 20%;  
+    transform: translateX(1100px);
+    margin-top: 230px;
+}
+.discord:hover {
+    position:absolute;
+    width: 250px;
+    height: 200px;
+    border-radius: 30%;
+    border: 3px solid blue;
+    z-index: 2;
+    box-shadow: 50px;
+}
+
+/****************   F A C E   B O O K *************/
+
+.facebook__text {
+    position: absolute;
+    color: rgb(66, 245, 21);
+    font-size: 40px;
+    margin-top: 70px;
+    transform: translateX(100px);
+}
+
+.facebook__click {
+    position: absolute;
+    font-size: 40px;
+    color: cyan;
+    margin-top: 420px;
+    transform: translateX(70px);
+}
+
+.facebook {
+    position: absolute;
+    transform: translateX(100px);
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-top: 230px;
+}
+
+.facebook:hover {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    border-radius: 30%;
+}

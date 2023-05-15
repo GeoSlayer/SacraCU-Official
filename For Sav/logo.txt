@@ -1,0 +1,52 @@
+
+    <img src="/images/sacra-logo.jpg" class="sacra__logo1">
+    <img src="/images/sacra-logo.jpg" class="sacra__logo2">ჰ
+    <img src="/images/sacra-logo.jpg" class="sacra__logo3">
+    <img src="/images/sacra-logo.jpg" class="sacra__logo4">
+
+
+
+
+
+
+
+
+.sacra__logo1 {
+    position: fixed;
+    width: 80px;
+    transform: translateY(-150px);
+    border-radius: 50%;
+    margin-left: px;
+    border: 5px solid rgb(43, 214, 21);
+    z-index: 999;
+}
+
+.sacra__logo2 {
+    position: fixed;
+    width: 80px;
+    transform: translateY(590px);
+    border-radius: 50%;
+    border: 5px solid blue;
+    z-index: 999;
+}
+
+.sacra__logo3 {
+    position: fixed;
+    width: 80px;
+    transform: translatex(1600px);
+    margin-top: 70px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin-top: -135px;
+    z-index: 999;
+}
+
+.sacra__logo4 {
+    position: fixed;
+    width: 80px;
+    transform: translateY(592px);
+    border-radius: 50%;
+    margin-left: 1600px;
+    border: 5px solid green;
+    z-index: 999;
+}

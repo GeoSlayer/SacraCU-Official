@@ -1,0 +1,95 @@
+/*************  D I S C O R D  ************/  
+
+.discord {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;  
+    transform: translateX(50px);
+}
+.discord:hover {
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid blue;
+    z-index: 2;
+}
+
+
+
+/*************  Sacra  L O G O  ************/ 
+
+
+/****************   C.O.N.T.E.I.N.E.R     L I N K S *****************/
+
+.conteiner__links {
+    width: 1670px;
+    height: 400px;
+    background-color: black;
+    transform: translateY(793px);
+    align-items: cente;
+}
+
+
+ /****************   F A C E B O K      L I N K *****************/
+
+.facebook__text {
+    position:absolute;
+    font-size: 50px;
+    transform: translateX(100px);
+    color: blue ;
+
+}
+
+  /****************    D I S C O R D   L I N K *****************/
+
+  .discord__text {
+    position: absolute;
+    font-size: 50px;
+    transform: translateX(820px);
+    color: red;
+  }
+
+
+  .discord__link-logo {
+    position: absolute;
+    margin-top: 150px;
+    transform: translateX(1300px);
+    border-radius: 30%;
+    width: 250px;
+    height: 130px;
+  }
+
+
+  .discord__link-logo:hover {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 30%;
+  }
+
+  .discord__click-here {
+    position: absolute;
+    font-size: 50px;
+    color: tomato ;
+  }
+
+
+
+
+       <p class="da">და</p>
+
+
+        <div class="container__links-facebook">
+            <P class="facebook__text">გამოგვყევით FACEBOOK-ზე  </P>
+            <p class="facebook__click-here">👈Click Here</p>
+            <img src="/images/facebook.jpg" class="facebook__link-logo"></a>
+        </div>
+
+
+        <div class="container__links-discord">
+            <p class="discord__text"> ასევე ოფიციალურ DISCOD-ზე</p>
+            <p class="discord__click-here">Click Here👉</p>
+            <img src="/images/discord.jpg" class="discord__link-logo" <a href="https://discord.com/invite/9HTYXhvU"> </a> 
+        </div>
